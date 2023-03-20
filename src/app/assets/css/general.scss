@@ -1,0 +1,45 @@
+//Font Color
+.th-primary{
+  color: #ff4d30;
+}
+
+.th-white{
+  color: #fff;
+}
+
+//Background Color
+.th-bg-primary{
+  background-color: #ff4d30;
+}
+
+//general css
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.mobile-drawer{
+  background: #fff;
+  position: fixed;
+  transform: translateX(-100%);
+  transition: 0.3s ease-out;
+  height: 100vh;
+  width: 100%;
+  z-index: 2000;
+  top: 0;
+}
+
+.open{
+  transform: translateX(0%);
+}
+
+.close-btn{
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
