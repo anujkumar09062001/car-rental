@@ -1,6 +1,8 @@
+$primary : #ff4d30;
+
 //Font Color
 .th-primary{
-  color: #ff4d30;
+  color: $primary;
 }
 
 .th-white{
@@ -9,7 +11,37 @@
 
 //Background Color
 .th-bg-primary{
-  background-color: #ff4d30;
+  background-color: $primary;
+}
+
+.th-bg-black{
+  background-color: #000 !important;
+}
+
+.th-bg-grey{
+  background-color: #f8f8f8;
+}
+
+.th-bg-white{
+  background-color: #fff;
+}
+
+//button
+
+.th-btn-primary{
+  padding: 15px 20px;
+  background-color: $primary;
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.app-button{
+  padding: 15px 30px;
+  background-color: $primary;
+  border: 0px;
+  color: white;
 }
 
 //general css
@@ -17,6 +49,10 @@
 a{
   text-decoration: none;
   color: black;
+}
+
+a:hover{  
+  color: $primary;
 }
 
 .pointer{
@@ -42,4 +78,48 @@ a{
   position: absolute;
   top: 15px;
   right: 25px;
+}
+
+//home
+
+.home{
+  padding-top: 100px !important;
+}
+
+@media screen and (min-width: 1000px) {
+  .car-bg-image{
+    position: absolute;
+    right: 0;
+    width: 800px;
+  }
+  .bg-image{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .car-bg-image{
+    display: none;
+  }
+  .bg-image{
+    display: none;
+  }
+}
+
+.booking-section{
+  background-image: url('../img/booking-bg.png');
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+  margin-top: 200px;
+}
+
+.form-input{
+  padding: 10px 20px;
+  border: 0.5px solid lightgray;
+  outline: none;
+}
+
+b{
+  color: $primary;
 }

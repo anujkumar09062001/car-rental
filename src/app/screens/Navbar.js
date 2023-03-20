@@ -11,9 +11,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="">
+    <>
       <MyDesktop>
-        <div className="d-flex justify-content-between align-items-center mx-1 p-3 fw-semibold bg-light">
+        <div className="d-flex justify-content-between align-items-center 
+        px-4 py-4 fw-bold position-absolute w-100 th-18" style={{ zIndex: 1 }}>
           <div className="pointer">
             <img src={logo} alt="logo" width="150" height="50" />
           </div>
@@ -38,7 +39,9 @@ const Navbar = () => {
             </div>
           </div>
           <div className="d-flex align-items-center">
-            <div className="px-3 pointer">Sign In</div>
+            <div className="px-3 pointer">
+              <a href="#">Sign In</a>
+            </div>
             <div className="px-3">
               <button
                 type="button"
@@ -53,7 +56,7 @@ const Navbar = () => {
       </MyDesktop>
 
       <MyMobile>
-        <div className="py-3 px-lg-5 px-3 d-flex justify-content-between fixed-top">
+        <div className="py-3 px-lg-5 px-3 d-flex justify-content-between position-absolute w-100">
           <div className="">
             <img src={logo} alt="logo" width="150" height="50" />
           </div>
@@ -93,7 +96,7 @@ const Navbar = () => {
           </div>
         </div>
       </MyMobile>
-    </div>
+    </>
   );
 };
 
