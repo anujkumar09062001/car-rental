@@ -4,7 +4,7 @@ import carbgimage from "../assets/img/car-bg.png";
 
 const Home = () => {
   return (
-    <div className="py-5 th-bg-grey home">
+    <div className="py-5 th-bg-grey home" id="home">
       <div className="px-4">
         <img src={bgimage} alt="Background Image" className="bg-image" />
         <div className="row pt-5 mt-lg-0 mt-5 text-lg-start text-center">
