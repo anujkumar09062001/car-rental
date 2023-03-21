@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/img/car-logo.png";
 import MyDesktop from "../components/MyDesktop";
 import MyMobile from "../components/MyMobile";
@@ -20,22 +21,22 @@ const Navbar = () => {
           </div>
           <div className="d-flex">
             <div className="px-3">
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </div>
             <div className="px-3">
-              <a href="/about">About</a>
+              <Link to="/about">About</Link>
             </div>
             <div className="px-3">
-              <a href="/models">Vehicle Models</a>
+              <Link to="/models">Vehicle Models</Link>
             </div>
             <div className="px-3">
-              <a href="/testimonials">Testimonials</a>
+              <Link to="/testimonials">Testimonials</Link>
             </div>
             <div className="px-3">
-              <a href="/team">Our Team</a>
+              <Link to="/team">Our Team</Link>
             </div>
             <div className="px-3">
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </div>
           </div>
           <div className="d-flex align-items-center">
@@ -77,22 +78,22 @@ const Navbar = () => {
           </div>
           <div className="text-center">
             <div className="my-3 th-20">
-              <a href="/" onClick={closeButton}>Home</a>
+              <Link to="/" onClick={closeButton}>Home</Link>
             </div>
             <div className="my-3 th-20">
-              <a href="/about" onClick={closeButton}>About</a>
+              <Link to="/about" onClick={closeButton}>About</Link>
             </div>
             <div className="my-3 th-20">
-              <a href="/models" onClick={closeButton}>Vehicle Models</a>
+              <Link to="/models" onClick={closeButton}>Vehicle Models</Link>
             </div>
             <div className="my-3 th-20">
-              <a href="/testimonials" onClick={closeButton}>Testimonials</a>
+              <Link to="/testimonials" onClick={closeButton}>Testimonials</Link>
             </div>
             <div className="my-3 th-20">
-              <a href="/team" onClick={closeButton}>Our Team</a>
+              <Link to="/team" onClick={closeButton}>Our Team</Link>
             </div>
             <div className="my-3 th-20">
-              <a href="/contact" onClick={closeButton}>Contact</a>
+              <Link to="/contact" onClick={closeButton}>Contact</Link>
             </div>
           </div>
         </div>
