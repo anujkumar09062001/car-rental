@@ -13,7 +13,7 @@ const Team = () => {
   return (
     <div id="Team">
       <Welcome title="Our Team" />
-      <div className="container my-5">
+      <div className="container my-4">
         <div className="row p-5">
           <div className="col-lg-4 p-5">
             <Card image={Team1} title="Sarvesh" subTitle="Teacher" />
