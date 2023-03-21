@@ -5,6 +5,10 @@ import AboutCompanyPlan from "../components/AboutCompanyPlan";
 import BookingForm from "./BookingForm";
 
 const Home = () => {
+  const ScrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="py-5 th-bg-grey home" id="Home">
       <div className="px-4">
@@ -48,6 +52,15 @@ const Home = () => {
       <BookingForm />
       <div className="mt-5 pt-5">
         <AboutCompanyPlan />
+      </div>
+
+      {/* Scroll to top */}
+      <div className="">
+        <i
+          className="fas fa-caret-square-up th-primary position-fixed th-50 pointer"
+          onClick={ScrollToTop}
+          style={{ bottom: "40px", right: "35px" }}
+        ></i>
       </div>
     </div>
   );
