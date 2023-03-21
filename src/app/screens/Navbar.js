@@ -20,22 +20,22 @@ const Navbar = () => {
           </div>
           <div className="d-flex">
             <div className="px-3">
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </div>
             <div className="px-3">
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </div>
             <div className="px-3">
-              <a href="#">Vehicle Models</a>
+              <a href="/models">Vehicle Models</a>
             </div>
             <div className="px-3">
-              <a href="#">Testimonials</a>
+              <a href="/testimonials">Testimonials</a>
             </div>
             <div className="px-3">
-              <a href="#">Our Team</a>
+              <a href="/team">Our Team</a>
             </div>
             <div className="px-3">
-              <a href="#">Contact</a>
+              <a href="/contact">Contact</a>
             </div>
           </div>
           <div className="d-flex align-items-center">
@@ -56,7 +56,8 @@ const Navbar = () => {
       </MyDesktop>
 
       <MyMobile>
-        <div className="py-3 px-lg-5 px-3 d-flex justify-content-between position-absolute w-100">
+        <div className="py-3 px-lg-5 px-3 d-flex justify-content-between position-absolute w-100"
+          style={{ zIndex: 1 }}>
           <div className="">
             <img src={logo} alt="logo" width="150" height="50" />
           </div>
@@ -76,22 +77,22 @@ const Navbar = () => {
           </div>
           <div className="text-center">
             <div className="my-3 th-20">
-              <a href="#">Home</a>
+              <a href="/" onClick={closeButton}>Home</a>
             </div>
             <div className="my-3 th-20">
-              <a href="#">About</a>
+              <a href="/about" onClick={closeButton}>About</a>
             </div>
             <div className="my-3 th-20">
-              <a href="#">Vehicle Models</a>
+              <a href="/models" onClick={closeButton}>Vehicle Models</a>
             </div>
             <div className="my-3 th-20">
-              <a href="#">Testimonials</a>
+              <a href="/testimonials" onClick={closeButton}>Testimonials</a>
             </div>
             <div className="my-3 th-20">
-              <a href="#">Our Team</a>
+              <a href="/team" onClick={closeButton}>Our Team</a>
             </div>
             <div className="my-3 th-20">
-              <a href="#">Contact</a>
+              <a href="/contact" onClick={closeButton}>Contact</a>
             </div>
           </div>
         </div>

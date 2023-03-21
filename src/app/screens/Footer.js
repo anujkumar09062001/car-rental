@@ -26,7 +26,7 @@ const Footer = () => {
               <a href="#home">India</a>
             </div>
             <div className="my-2">
-              <a href="#home">Carrers</a>
+              <a href="#home">Careers</a>
             </div>
             <div className="my-2">
               <a href="#home">Mobile</a>
