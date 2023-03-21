@@ -1,6 +1,7 @@
 import React from "react";
 import bgimage from "../assets/img/bg.png";
 import carbgimage from "../assets/img/car-bg.png";
+import AboutCompanyPlan from "../components/AboutCompanyPlan";
 import BookingForm from "./BookingForm";
 
 const Home = () => {
@@ -45,6 +46,9 @@ const Home = () => {
       </div>
 
       <BookingForm />
+      <div className="mt-5 pt-5">
+        <AboutCompanyPlan />
+      </div>
     </div>
   );
 };
