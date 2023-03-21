@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialCard = ({ header, image, title, subTitle }) => {
   return (
-    <div className="th-bg-white p-lg-5 p-4">
+    <div className="th-bg-white p-lg-5 p-4" style={{ boxShadow: "0 20px 40px 0 rgba(0,0,0,.08)" }}>
       <div className="fw-semibold th-24">{header}</div>
       <div className="row mt-3">
         <div
