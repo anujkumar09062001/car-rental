@@ -39,8 +39,8 @@ const Navbar = () => {
             </div>
           </div>
           <div className="d-flex align-items-center">
-            <div className="px-3 pointer">
-              <a href="#">Sign In</a>
+            <div className="px-3 pointer th-primary">
+              Sign In
             </div>
             <div className="px-3">
               <button

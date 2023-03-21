@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="py-5 th-bg-grey home" id="Home">
       <div className="px-4">
-        <img src={bgimage} alt="Background Image" className="bg-image" />
+        <img src={bgimage} alt="BackgroundImage" className="bg-image" />
         <div className="row pt-5 mt-lg-0 mt-5 text-lg-start text-center">
           <div className="col-lg-5">
             <div className="fw-bold th-24">Plan your trip now</div>
@@ -37,7 +37,7 @@ const Home = () => {
           <div className="col-lg-6">
             <img
               src={carbgimage}
-              alt="Car Background Image"
+              alt="CarBackgroundImage"
               className="car-bg-image"
             />
           </div>
