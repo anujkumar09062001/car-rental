@@ -1,0 +1,29 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "XTYFGHLRC4.com.expoapp.app",
+        "components": [
+          {
+            "/": "/*",
+            "comment": "Matches any URL with a path that starts with /"
+          }
+        ],
+        "paths": [
+          "/*"
+        ]
+      }
+    ],
+    "activitycontinuation": {
+      "apps": [
+        "XTYFGHLRC4.com.expoapp.app"
+      ]
+    },
+    "webcredentials": {
+      "apps": [
+        "XTYFGHLRC4.com.expoapp.app"
+      ]
+    }
+  }
+}
